@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta charset="UTF-8">
+            <title> Jérémy Gross </title>
+            <meta name="description" content="Manon Chalony's Photographies"/>
+            <meta name="keywords" content="photo, photographie, shooting"/>
+            <meta name="author" content="Jérémy Gross" />
+            <link rel="stylesheet" href="style.css"/>
+            <link rel="icon" href="img/icon.png" />
+            <!-- <a href="https://www.flaticon.com/free-icons/profile" title="profile icons">Profile icons created by Muhammad_Usman - Flaticon</a> -->
+            <script src="script.js"></script>
+        </head>
+    <body>
+        <nav>
+            <div class="menu">
+                <input type="checkbox" id="check">
+                <div class="logo"><h1>Jérémy Gross</h1></div>
+                <ul>
+                    <label class="button cancel" for="check"><img id="cancel-button" src="img/close.png" alt="X"></label>                
+                    <li><a href="index.html"> Accueil </a></li>
+                    <li><a href="#project"> Projects </a></li>
+                    <li><a href="#cv"> CV </a></li>
+                    <li><a href="#contact"> Contact </a></li>
+                </ul>
+                <a id="boutonModeSombre" onclick="switchTheme_avanced_onClick(event)"><img src="img/moon.png"></a>
+                <label class="button bars" for="check"><img id="menu-button" src="img/menu.png" alt="-"></label>
+            </div>
+        </nav>
+        <section id="bienvenue">
+            <h2>
+                Welcome to my portfolio's website !
+            </h2>
+            <article style="width: 40%;">
+                <p>
+                    Hello and welcome to my portfolio's website ! If you are here, you will certainly want to know more about me, my 
+                    professional career, my projects, ... You will also find all my contacts if you want more information, so don't 
+                    hesitate!
+                </p>
+            </article>
+            <article style="width: 60%;">
+                <img src="img/codage.jpg">
+            </article>
+        </section>
+        <section id="project">
+            <h2> Projects </h2>
+            <div class="id-prjt">
+                <article id="artcl-prjt"> 
+                    <h3> Photography website </h3>
+                    <img class="img-prjt" src="img/photography.png">
+                    <p> I used Html and css to make it. It tooked me around 20 hours to code it. There are three 
+                        different pages on it : first, the "portfolio" of the photographer, with for each photo a title and a date. 
+                        Afterwards, we have the page to contact the photographer via a form. And finally, a contact page where you can find the 
+                        photographer's networks. It's the first time that I made a responsive menu. You can found the code in 
+                        my <a href="https://github.com/JeremyGross13/Photography-website" style="color: #fff;">GitHub</a>. 
+                    </p>
+                </article>
+                <article id="artcl-prjt"> 
+                    <h3> Pedagogical uses </h3>
+                    <img class="img-prjt" src="img/pedagogical.png">
+                    <p> 
+                        This project has been writed in java, javafx and fxml. Firstly, you can found an home page, were you can see a link for a form online, 
+                        that I made with HTML and CSS. Then, you have a help button, that show you some help for using our app. Also, you have a connexion button 
+                        that ask you an user id and a password (the user is "admin" and the password is "password"). The admin 
+                        can add what they want into our database. After, you have a page were you can choose the view of the uses : either by academies or by 
+                        theme. And when you choose a view, you have it and you can choose your academy or thematics to view the attached uses.
+                    </p>
+                </article>
+                <article id="artcl-prjt"> 
+                    <h3> Photography website 2 </h3>
+                    <img class="img-prjt" src="img/photography2.png">
+                    <p> 
+                        The last website that I made. This is a website for a recent passion, and yeah, this is the second photography website that I 
+                        made. This time, I wanted to create page for each collection of photos, to expose them to the visitor. I'd try new differents things, 
+                        as the fixed background, the navigator location, that I place at the left of the screen, or the "card" that I made for the contact 
+                        page's. Now, I think that I acquired a good experience in photography website, so don't hesitate if you need one ! I really encourage
+                        you to go on this website if you are interesting in photography or in art in general ! 
+                    </p>
+                </article>
+            </div>
+        </section>
+        <section id="cv">
+            <h2> CV </h2>
+            <article class="artcl-cv">
+                <p>
+                    Actuellement étudiant en deuxième année de BUT Informatique, je recherche un poste dans le domaine de l'informatique.
+                </p>
+                <div class="trt-1"></div>
+            </article>
+            <article class="artcl-cv">
+                <h3> FORMATION </h3>
+                <ul>
+                    <li class="cv-ul-li">
+                        Lycée Vauvenargues, Aix-en-Provence, 2018-2021. 
+                        Première : spécialités Mathématiques, NSI (Numérique et science de l’informatique), SI (Science de l’ingénieur). 
+                        Terminale : spécialité Mathématiques et NSI. 
+                        Baccalauréat mention Bien. 
+                    </li>
+                    <br>
+                    <li class="cv-ul-li">
+                        IUT Aix-en-Provence, site Gaston Berger, 2021-2024. 
+                        Section informatique, étudiant de deuxième année. 
+                    </li>
+                </ul>
+                <div class="trt-1"></div>
+            </article>
+            <article class="artcl-cv">
+                <h3> PARCOURS PROFESSIONNEL </h3>
+                <h4> Arcadia </h4>
+                <p>
+                    Stage d’observation réalisé dans le cadre de la classe de troisième. 
+                    Cabinet d’architecture de Michel Teissier, 7 collaborateurs. Salon de Provence,  février 2018. 
+                </p>
+                <h4> Cabinet vétérinaire  </h4>
+                <p>
+                    Stage d’observation réalisé dans le cadre de la classe de seconde. 
+                    Cabinet de vétérinaire, Ventabren, février 2019. 
+                </p>
+                <h4> Service technique  </h4>
+                <p>
+                    Emploi saisonnier durant l’été 2021 au service technique de Ventabren 
+                    de une semaine (35 heures). 
+                </p>
+                <div class="trt-1"></div>
+            </article>
+            <article class="artcl-cv">
+                <h3 style="margin-top: 20%;"> COMPUTER SKILLS </h3>
+                <p style="margin-top: 5%; margin-bottom: 5%;"> 
+                    <a href="https://isocpp.org/"> <img src="img/c++.png"> </a>    
+                    <a href="https://www.java.com"> <img src="img/java.png"> </a>
+                    <a href="https://www.w3.org/html/"> <img src="img/html.png"> </a> 
+                    <a href="https://www.w3schools.com/css/"> <img src="img/css.png"> </a> 
+                    <a href="https://www.python.org"> <img src="img/python.png"> </a> 
+                </p>
+                <h3> IDEs, Tools and softwares </h3>
+                <p style="margin-top: 5%;"> 
+                    <a href="https://code.visualstudio.com/?msclkid=4917a673b80911ecaaee827a32b797fa"> <img src="img/vsc.png"> </a>
+                    <a href="https://www.spyder-ide.org/"> <img src="img/spyder.png"> </a> 
+                    <a href="https://www.jetbrains.com/idea/"> <img src="img/intellij.png"/> </a>
+                    <a href="https://www.eclipse.org/ide/"> <img src="img/eclipse.png"> </a>
+                    <a href="https://www.qt.io/product?msclkid=6bc17d04b7f611ec8d822dd4f46729b2"> <img src="img/qtcreator.png"> </a>
+                    </p>
+            </article>
+        </section>
+        <section id="contact">
+            <h2> Contacts </h2>
+            <article class="ctc">
+                <h3> Mail </h3>
+                <div class="div-ctc">
+                    <img class="img-ctc" src="img/gmail.png" alt="logo gmail">
+                    <a class="lien-ctc" href="https://mail.google.com/mail/u/0/?hl=fr&msclkid=39cbf70db97511ec84b24436adf08755#inbox?compose=CllgCJZZzpXjcmWnZGghcHwPtcxvprcgHJRZDPhWLvVWKKFwgxhnXfQWMGVCCmwlsdKZbjBtRjV"> &nbsp;jeremygross1307@gmail.com </a>
+                </div>
+            </article>
+            <article class="ctc">
+                <h3> LinkdIn </h3>
+                <div class="div-ctc">
+                    <img class="img-ctc" src="img/linkdin.png" alt="logo linkdin">
+                    <a class="lien-ctc" href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-gross-159a8622b/"> &nbsp; Jérémy Gross </a>
+                </div>
+            </article>
+            <article class="ctc">
+                <h3> Discord </h3>
+                <div class="div-ctc">
+                    <img class="img-ctc" src="img/discord.png" alt="logo discord">
+                    <a class="lien-ctc" href=""> &nbsp; Niniz#8564 </a>
+                </div>
+            </article>
+            <article class="ctc">
+                <h3> Instagram </h3>
+                <div class="div-ctc">
+                    <img class="img-ctc" src="img/instagram.png" alt="logo instagram">
+                    <a class="lien-ctc" href="https://www.instagram.com/jeremy__grs/"> &nbsp; jeremy__grs </a>
+                </div>
+            </article>
+        </section>
+        <script src="script.js"></script>
+
+    </body>
+</html>
