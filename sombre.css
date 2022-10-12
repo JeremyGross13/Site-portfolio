@@ -1,384 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
-
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
 body{
     background: #000;
-    margin: 0;
-    padding: 0;
 }
 
 h2{
     color: #ffffff;
-    font-size: 4em;
-    font-family: 'Cairo Play', cursive;
 }
 
 h3{
     color: #ffffff;
-    font-size: 1.5em;
-    font-family: 'Della Respira', serif;
-    text-align: center;
 }
 
 h4{
     color: #ffffff;
-    font-size: 1.2em;
-    font-family: 'Della Respira', serif;
 }
 
 p{
     color: #ffffff;
-    font-family: 'Della Respira', serif;
 }
 
 a{
     color: #ffffff;
-    text-decoration: none;
 }
-
-/*----------------- Navigateur ------------------*/
 
 nav{
-    width: 100%;
     background: #000;
-    padding: 12px 0;
-    /* box-shadow: -3px -3px 7px #ffffff,
-                3px 3px 5px #ceced1; */
-}
-
-
-#cancel-button{
-    background-color: #ecf0f3;
-    width: 18px;
-}
-
-#menu-button{
-    background-color: #ecf0f3;
-    width: 18px;
-}
-
-nav .menu{
-    max-width: 1270px;
-    margin: auto;
-    padding: 0 20px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    box-shadow: -3px -3px 7px #fff,
+                -3px -3px 10px #fff;
 }
 
 .menu .logo h1{
-    font-size: 30px;
-    font-weight: 600;
-    font-family: 'Cairo Play', cursive;
-    text-decoration: none;
     color: #fff;
-}
-
-.menu ul{
-    list-style: none;
-    display: flex;
 }
 
 .menu ul a{
-    min-width: 50px;
-    margin: 0 8px;
-    text-decoration: none;
-    font-size: 22px;
     color: #fff;
-    font-weight: 400;
-    font-family: 'Cairo Play', cursive;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 10px 12px;
-    position: relative;
-    transition: all 0.3s ease;
 }
 
 .menu ul a:hover:before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    /* box-shadow: inset -3px -3px 7px #ffffff,
-                inset 3px 3px 5px #ceced1; */
+    box-shadow: none;
 }
 
-nav label.button{
-    width: 18px;
-    cursor: pointer;
-    display: none;
+.fa-bars{
+    color: #fff;
 }
 
-nav label.cancel{
-    position: absolute;
-    top: 25px;
-    right: 30px;
-}
-
-#check{ 
-    display: none;
-}
-
-nav label .bars{
-    display: block;
-}
-
-/*-------------------- Section -----------------*/
-
-#bienvenue{
-    padding-top: 5%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-#bienvenue p{
-    font-family: 'Della Respira', serif;
-    font-size: 1.3em;
-    padding: 5% 0 5% 15%;
-    text-align: center;
-    width: 100%;
-}
-
-#bienvenue img{
-    width: 600px;
-}
-
-#bienvenue article{
-    padding-top: 5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-#project{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10%;
-}
-
-.id-prjt{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding-top: 5%;
+.fa-times{
+    color: #fff;
 }
 
 #artcl-prjt{
-    margin: 5% 2.5% 0 2.5%;
-    width: 25%;
-    padding: 2%;
     background-color: #000;
     border: solid 2px #fff;
-    border-radius: 15px;
-    /* box-shadow: 0 15px 30px 0 rgb(0 0 0 / 30%), 0 5px 15px 0 rgb(0 0 0 / 8%); */
-}
-
-#artcl-prjt h3{
-    margin-bottom: 5%;
-}
-
-.img-prjt{
-    border-radius: 5px;
-    margin-bottom: 5%;
-    width: 100%;
-}
-
-#cv{
-    margin: 10% 10% 0 10%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 #cv h2{
     color: #fff;
-    margin-bottom: 5%;
 }
 
 #cv h3{
     color: #fff;
-    margin-bottom: 5%;
-    margin-top: 5%;
 }
 
 .cv-ul-li{
     color: #fff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.artcl-cv{
-    margin: 0 20% 0 20%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.artcl-cv p a img{
-    width: 51px;
-    height: 51px;
-}
-
-#contact{
-    display: flex;
-    margin: 10% 0 7% 0;
-    flex-direction: column;
-    align-items: center;
-}
-
-.ctc{
-    margin-bottom: 2%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.ctc h3{
-    margin-bottom: 5%;
-}
-
-.img-ctc{
-    width: 30px;
-}
-
-.div-ctc{
-    display: flex;
-    flex-direction: row;
 }
 
 .lien-ctc{
     color: #fff;
-    font-size: 1.2em;
-    text-decoration: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.lien-ctc:hover{
-    transition: 0.5s;
-    color: cornflowerblue;
-}
 
-/*---------------- Media Queries -----------------*/
-
-@media (max-width:1000px){
-    
-    #bienvenue{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #bienvenue h2{
-        padding: 0 5%;
-    }
-
-    #bienvenue article{
-        width: 80%;
-    }
-
-    #bienvenue p{
-        width: 100%;
-        padding: 0;
-    }
-
-    #bienvenue img{
-        width: 350px;
-    }
-
-}
 
 @media (max-width:800px){
 
-    nav .menu{
-        justify-content: space-between;
-    }
-
     .menu ul {
-        display: block;
-        position: fixed;
-        top: 0;
-        left: 100%;
-        width: 100%;
-        max-width: 400px;
-        padding-top: 45px;
-        height: 100%;
         background: #000;
-        /* box-shadow: 0 5px 10px #b0b0b5; */
-        z-index: 12;
-        transition: all 0.3s ease;
-    }
-
-    .menu ul a{
-        display: block;
-        font-size: 23px;
-        width: 100%;
-        margin-top: 30px;
-        box-shadow: none;
-        text-align: center;
-    }
-
-    .menu ul a:hover:before{
-        box-shadow: none;
-    }
-    
-    nav label.bars{
-        display: block;
-    }
-    
-    #check:checked ~ label.bars{
-        display: none;
-    }
-    
-    #check:checked ~ ul label.cancel{
-        display: block;
-    }
-
-    #check:checked ~ ul{
-        left: 0;
-    }
-
-    .id-prjt{
-        flex-direction: column;
-        align-items: center;
-    }
-    #artcl-prjt{
-        margin-top: 5%;
-        width: 80%;
-        justify-content: space-evenly;
-    }
-
-    .button-bars{
-        display: block;
     }
 
     h1{
         color: #fff;
-        font-size: 4em;
-    }
-
-    .trt{
-        display: none;
-    }
-
-    nav ul li p{
-        font-size: 20px;
-    }
-
-    .artcl-cv{
-        margin: 0 10% 0 10%;
     }
 }
 

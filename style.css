@@ -125,9 +125,12 @@ nav label .bars{
     display: block;
 }
 
-#boutonModeSombre img{
-    width: 32px;
-    background-color: #ecf0f3;
+.fa-bars{
+    color: #000;
+}
+
+.fa-times{
+    color: #000;
 }
 
 /*-------------------- Section -----------------*/
