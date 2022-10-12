@@ -132,6 +132,10 @@ nav label .bars{
     display: block;
 }
 
+.fa-solid{
+    color: white;
+}
+
 /*-------------------- Section -----------------*/
 
 #bienvenue{
