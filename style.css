@@ -125,12 +125,20 @@ nav label .bars{
     display: block;
 }
 
+.fa-moon{
+    color: #000;
+}
+
 .fa-bars{
     color: #000;
 }
 
 .fa-times{
     color: #000;
+}
+
+#boutonModeSombre{
+    cursor: pointer;
 }
 
 /*-------------------- Section -----------------*/
